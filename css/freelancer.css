@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    /* content: "\f005"; */
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -67,11 +67,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #ef5350;
+    border-color: #013220;
 }
 
 hr.star-primary:after {
-    color: #ef5350;
+    color: #013220;
     background-color: #fff;
 }
 
@@ -79,10 +79,16 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.header-black-overlay{
+    position:relative;
+    background: #000;
+    opacity: 0.8;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background: #8bc34a;
+    background: url(../img/frame1.jpg) no-repeat center center scroll;
 }
 
 header .container {
@@ -335,7 +341,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 10px;
-    background-color: #ef5350;
+    background-color: #013220;
 }
 
 footer .footer-col {
@@ -344,8 +350,9 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #d32f2f;
+    background-color: #011910;
 }
+
 
 .btn-social {
     display: inline-block;
@@ -428,7 +435,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #ef5350;
+    background-color: #013220;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -438,7 +445,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #ef5350;
+    background-color: #013220;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
