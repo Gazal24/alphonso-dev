@@ -450,3 +450,15 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.top-frame {
+    padding-top: 120px;
+}
+
+.my-table td{
+    padding: 10px 5px;
+}
+
+.my-table td:nth-child(1){
+    text-align: center;
+}
