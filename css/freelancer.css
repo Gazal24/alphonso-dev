@@ -131,7 +131,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -177,7 +177,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 0px 0px 0px;
 }
 
 section h2 {
@@ -466,7 +466,6 @@ footer .footer-below {
 .flex-container {
     position:relative;
     text-align:center;
-    border:1px solid red;
 }
 
 .flex-button {
